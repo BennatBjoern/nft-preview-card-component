@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --cyan-transparent: rgba(0, 255, 247, 0.4);
+  --very-dark-blue-main: hsl(217, 54%, 11%);
+  --very-dark-blue-card: hsl(216, 50%, 16%);
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--very-dark-blue-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 30rem;
+  background-color: var(--very-dark-blue-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+  background-image: url("../images/image-equilibrium.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  height: 26rem;
+  margin-bottom: 2rem;
+}
+
+.product-img {
+  background: url("../images/image-equilibrium.jpg");
+  background-size: 100%;
+  width: 26rem;
+  height: 26rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-view {
+  height: 100%;
+  background-color: rgba(2, 252, 252, 0.4);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.product-img:hover .product-view {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.content {
+  width: 26rem;
+}
+.product-heading {
+  color: var(--white);
+  font-weight: 400;
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+
+.product-text {
+  font-size: 1.6rem;
+  color: var(--soft-blue);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.flex--gap-sm {
+  gap: 0.8rem;
+}
+
+.flex--gap-md {
+  gap: 1.4rem;
+}
+
+.flex--space {
+  justify-content: space-between;
+}
+
+.eth {
+  font-size: 1.4rem;
+  color: var(--cyan);
+}
+
+.days {
+  font-size: 1.4rem;
+  color: var(--soft-blue);
+}
+
+hr {
+  border: none;
+  background-color: var(--very-dark-blue-line);
+  height: 1px;
+  margin: 2rem auto;
+}
+
+.creator-img {
+  height: 3rem;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+}
+
+.creator p {
+  font-size: 1.4rem;
+  color: var(--soft-blue);
+}
+
+.creator span {
+  color: var(--white);
+  transition: all 0.3s;
+}
+
+.product-heading:hover,
+.creator span:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
