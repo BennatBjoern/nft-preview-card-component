@@ -12,8 +12,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -43,5 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@bjoernbennat](https://www.frontendmentor.io/profile/bjoernbennat)
+- Frontend Mentor - [@bennatbjoern](https://www.frontendmentor.io/profile/bennatbjoern)
 - Twitter - [@bjoerncodes](https://www.twitter.com/bjoerncodes)
