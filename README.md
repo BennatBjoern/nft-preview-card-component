@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution link](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub)
-- Live Site URL: [Live link](https://bennatbjoern.github.io/nft-preview-card-component/)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub)
+- Live Site URL: [Github pages](https://bennatbjoern.github.io/nft-preview-card-component/)
 
 ## My process
 
